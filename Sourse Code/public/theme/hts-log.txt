@@ -1,0 +1,53 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 15 Mar 2021 16:40:52 at http://demo.foxthemes.net/socialitev2.0/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://demo.foxthemes.net/socialitev2.0/ -O1 "C:\My Web Sites\master3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:42:49	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/css/uikit.css (from demo.foxthemes.net/socialitev2.0/)
+16:42:49	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/css/tailwind.css (from demo.foxthemes.net/socialitev2.0/)
+16:42:49	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/images/logo-light.png (from demo.foxthemes.net/socialitev2.0/)
+16:44:42	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/blog-read.html (from demo.foxthemes.net/socialitev2.0/)
+16:44:42	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/courses.html (from demo.foxthemes.net/socialitev2.0/)
+16:44:43	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/course-intro.html (from demo.foxthemes.net/socialitev2.0/)
+16:45:01	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/forums.html (from demo.foxthemes.net/socialitev2.0/)
+16:45:02	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/demos/forums.png (from demo.foxthemes.net/socialitev2.0/)
+16:45:12	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/groups.html (from demo.foxthemes.net/socialitev2.0/)
+16:45:13	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/games.html (from demo.foxthemes.net/socialitev2.0/)
+16:45:17	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/job-details.html (from demo.foxthemes.net/socialitev2.0/)
+16:45:53	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/video-watch.html (from demo.foxthemes.net/socialitev2.0/)
+16:45:54	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/pages.html (from demo.foxthemes.net/socialitev2.0/)
+16:46:23	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/js/tippy.all.min.js (from demo.foxthemes.net/socialitev2.0/)
+16:46:23	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/js/simplebar.min.js (from demo.foxthemes.net/socialitev2.0/)
+16:46:23	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/fonts/Brand-Icons.svg?blcw31 (from demo.foxthemes.net/socialitev2.0/assets/css/icons.css)
+16:46:23	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/fonts/unicons.woff (from demo.foxthemes.net/socialitev2.0/assets/css/icons.css)
+16:46:24	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/scss/icons.css (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:24	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/homepage.html (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:24	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/avatars/avatar-5.jpg (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:24	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/page-setting.html (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:24	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/group-feed.html (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:24	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/images/logo-icon.png (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:28	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/dashboard-manage-jobs.html (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:28	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/dashboard-manage-candidates.html (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:28	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/dashboard-post-a-job.html (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:28	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/avatars/avatar-lg-4.jpg (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:36	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/post/img-3.jpg (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:46:36	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/category/science-and-tech.jpg (from demo.foxthemes.net/socialitev2.0/products.html)
+16:46:36	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/product/12.jpg (from demo.foxthemes.net/socialitev2.0/products.html)
+16:46:55	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/events/listing-1.jpg (from demo.foxthemes.net/socialitev2.0/events.html)
+16:46:56	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/events/listing-3.jpg (from demo.foxthemes.net/socialitev2.0/events.html)
+16:46:59	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/groups.html (from demo.foxthemes.net/socialitev2.0/)
+16:47:41	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/events/img-3.jpg (from demo.foxthemes.net/socialitev2.0/timeline-event.html)
+16:47:45	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/trending.html (from demo.foxthemes.net/socialitev2.0/form-login.html)
+16:47:45	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/pages-terms.html (from demo.foxthemes.net/socialitev2.0/form-register.html)
+16:47:46	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/post/img-3.jpg (from demo.foxthemes.net/socialitev2.0/feed.html)
+16:47:53	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/assets/images/blog/img-5.jpg (from demo.foxthemes.net/socialitev2.0/blog-read.html)
+16:47:53	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/%40tag-dev.html (from demo.foxthemes.net/socialitev2.0/forums.html)
+16:48:00	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/games/img-4.jpg (from demo.foxthemes.net/socialitev2.0/games.html)
+16:48:03	Error: 	"Not Found" (404) at link demo.foxthemes.net/socialitev2.0/trending.html (from demo.foxthemes.net/socialitev2.0/form-login.html)
+16:48:04	Warning: 	Retry after error -4 (No data (connection closed)) at link demo.foxthemes.net/socialitev2.0/assets/images/games/img-4.jpg (from demo.foxthemes.net/socialitev2.0/games.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 15 seconds : 191 links scanned, 148 files written (14583287 bytes overall) [11048480 bytes received at 25398 bytes/sec], 4396288 bytes transferred using HTTP compression in 57 files, ratio 17%, 2.6 requests per connection
+(17 errors, 25 warnings, 0 messages)
