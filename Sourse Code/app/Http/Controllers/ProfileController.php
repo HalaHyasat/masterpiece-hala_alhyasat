@@ -31,12 +31,12 @@ class ProfileController extends Controller
 
         $relation = false;
         foreach ($connections as $connection){
-            if ($connection->user_id == $user->id) {
+            if ($connection->friend_id == $user_id) {
                 $relation = $connection->id;
             }
         }
         foreach ($connections2 as $connection){
-            if ($connection->friend_id == $user->id) {
+            if ($connection->user_id == $user_id) {
                 $relation = $connection->id;
             }
         }

@@ -33,7 +33,7 @@ class PostsController extends Controller
         $var = new Post();
         if (!empty(request()->image)) {
             $imageName = time() . '.' . request()->image->getClientOriginalExtension();
-            request()->image->move(public_path('assets/images/posts/'), $imageName);
+            request()->image->move(public_path('assets/images/post/'), $imageName);
             $var->media = $imageName;
         }
         $var->page_id = $request->input('course');
@@ -60,9 +60,9 @@ class PostsController extends Controller
         if (!empty(request()->image)){
             $post = Post::find($id);
             $imageName= $post-> image;
-            File::delete(public_path('assets/images/posts/'.$imageName));
+            File::delete(public_path('assets/images/post/'.$imageName));
             $imageName = time().'.'.request()->image->getClientOriginalExtension();
-            request()->image->move(public_path('assets/images/posts/'), $imageName);
+            request()->image->move(public_path('assets/images/post/'), $imageName);
         }
         else {
             $post = Post::find($id);
@@ -82,7 +82,7 @@ class PostsController extends Controller
     {
         $post = Post::find($id);
 
-        File::delete(public_path('assets/images/posts/'.$post->image));
+        File::delete(public_path('assets/images/post/'.$post->image));
 
         $post->delete();
         return back()->with('success', 'Post deleted!');

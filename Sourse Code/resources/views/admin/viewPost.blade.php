@@ -18,7 +18,7 @@ View Posts
         @foreach($posts as $post)
             <div class="col-lg-6">
                 <div class="card" style="background: white; padding: 2rem; margin-bottom: 3rem">
-                    <img class="card-img-top" alt="" style="height:300px" src={{asset("assets/images/posts/$post->media")}} >
+                    <img class="card-img-top" alt="" style="height:300px" src={{asset("assets/images/post/$post->media")}} >
                     <div class="card-body">
                         <h2 class="card-title" style="margin-top: 1rem; margin-bottom: 1rem;">{{$post->page->name}}</h2>
                         <div id="article_body" class="card-text" style="   overflow: hidden;

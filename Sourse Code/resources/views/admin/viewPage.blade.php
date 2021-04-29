@@ -25,7 +25,13 @@ View Pages
                 <div class="malorm-bottom" >
                     <h4>Name: {{$page->name}}</h4>
                     <h4>Publisher: {{$page->user->name}}</h4>
-                    <p style="width: 90%;">"{{$page->desc}}"</p>
+                    <div       style="width: 90%;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    display: -webkit-box;
+                                    line-height: 30px;
+                                    -webkit-line-clamp: 3;
+                                    -webkit-box-orient: vertical;">"{{$page->desc}}"</div>
                     <ul class="malorum-icons">
                         <li>
                             <form action="{{ route('admin.managePage.destroy', $page->id)}}" method="post">

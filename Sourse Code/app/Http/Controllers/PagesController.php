@@ -10,7 +10,7 @@ class PagesController extends Controller
 {
     public function index()
     {
-        $pages = Page::where('id', '!=', 0)->orderBy("created_at","desc")->paginate(3);
+        $pages = Page::where('id', '!=', 0)->orderBy("created_at","asc")->paginate(3);
         return view('admin.viewPage', compact('pages'));
     }
 

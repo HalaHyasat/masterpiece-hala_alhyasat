@@ -178,12 +178,10 @@ Feed
                                         <div class="w-10 h-10 rounded-full relative flex-shrink-0">
                                             <img src="assets/images/avatars/{{$comment->user->image}}" alt="" class="absolute h-full rounded-full w-full">
                                         </div>
+                                                <b style="margin-left: 0.5rem; margin-top: 0.1rem; text-align: center">{{$comment->user->name}}</b>
                                         <div>
                                             <div class="flex items-center">
 
-                                            <div>
-                                                <b class="ml-2">{{$comment->user->name}}</b>
-                                            </div>
                                             <div class="text-gray-700 py-2 px-3 rounded-md bg-gray-100 relative lg:ml-5 ml-2 lg:mr-12  dark:bg-gray-800 dark:text-gray-100">
                                                 <p class="leading-6">
                                                     {{$comment->content}}
@@ -207,7 +205,7 @@ Feed
                                                 <form action="/home" method="POST">
                                                     @csrf
                                                     <input type="hidden" name="comment_id" value="{{$comment->id}}">
-                                                    <button type="submit" name="form4" class={{$loved ? "text-red-600" : "text-black-50"}}> <i class="uil-heart"></i> Love </button>
+                                                    <button type="submit" name="form4" style="margin-left: 1rem" class={{$loved ? "text-red-600" : "text-black-50"}}> <i class="uil-heart"></i> Love </button>
                                                 </form>
 
                                                 <span> {{$comment->created_at->format('d.M.y | h:i')}} </span>
